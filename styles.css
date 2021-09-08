@@ -1,0 +1,206 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+
+@media(max-width:668px){
+
+  .white-box{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
+
+  .additional-tip, .tip{
+
+    width: 50%;
+    margin: 0;
+  }
+  .pplNo, .bill{
+    width: 100%;
+  }
+
+  .lhs,.rhs{
+    margin: 0;
+    display: inline-block;
+  }
+  .reset-button{
+    letter-spacing: 1rem;
+  }
+}
+
+/* TITLE */
+.splitter{
+  padding-top: 5%;
+  margin-bottom:5%;
+  letter-spacing: 1rem;
+  line-height: 3rem;
+  color: hsl(186, 14%, 43%);
+  font-size: 1.5rem;
+}
+
+/* OUTER WHITE BOX */
+.white-box{
+  border-radius: 20px;
+  background-color:hsl(0, 0%, 100%);
+  padding: 2% 2%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+/* LHS STARTS HERE */
+/* the 'bill' text */
+p{
+  padding: 3%;
+  margin:0;
+  text-align: left;
+}
+
+.lhs, .rhs{
+  border-radius: 20px;
+  margin: 1% 5%;
+  text-align: center;
+  background-color: #fff;
+
+}
+
+/* left box for tip bill ppl */
+.lhs{
+/* margin-left: 8%; */
+margin-right: 6%;
+height: 900%;
+width: 40%; */
+text-align: left;
+}
+
+
+/* the bill and no of ppl input÷ */
+.pplNo, .bill{
+  margin-top: 1%;
+  margin-left: 2.5%;
+  background-color:hsl(189, 41%, 97%);
+  border-color: hsl(172, 67%, 45%);
+  color:hsl(183, 100%, 15%);
+  width: 90%
+
+}
+
+/* no of ppl */
+.pplNo{
+  margin-bottom: 5%;
+}
+
+/* each tip button + the additional tip*/
+.additional-tip, .tip{
+  padding: 10px 30px;
+  margin:1% -2%;
+}
+/* each btn with tip % displayed */
+.btn{
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+/* button when hovered over */
+.btn:hover{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+
+/* btn when clicked */
+.btn:focus{
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.additional-tip{
+  width: 100px;
+  height: 40px;
+  border-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  background-color:hsl(189, 41%, 97%);
+  padding-left:17%
+}
+.additional-tip:active{
+  width: 100px;
+  height: 40px;
+   border: 1px solid hsl(172, 67%, 45%);
+  /* border-color: ; */
+}
+
+/* RHS STARTS HERE */
+
+
+.rhs{
+  margin-left: 1%;
+  background-color: hsl(183, 100%, 15%);
+
+  width:40%;
+  padding: 3% 3% 1%;
+  text-align: left;
+  overflow: visible;
+}
+
+/* total and tip title names  */
+.tip-total{
+  float: left;
+}
+
+/* final amount */
+.money{
+  text-align: right;
+}
+
+.reset-button{
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  letter-spacing: 1rem;
+  margin: 10px;
+  margin-top: 20%;
+  margin-left: 9%;
+  padding: 3%;
+  width: 80%;
+  text-align: center;
+}
+.reset-button:hover,.reset-button:focus{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+h2{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 3% 0;
+}
+h3{
+  font-size: 1rem;
+  color:hsl(184, 14%, 56%);
+  margin: 3%;
+}
+h4{
+  font-size: 3rem;
+  color:hsl(172, 67%, 45%);
+}
+
+/* created by ovee etc */
+.attribution{
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+.enter{
+  margin-left: 2%;
+}
+
+.tipPerPerson,.totalPerPerson{
+  border: 0;
+  background-color: hsl(183, 100%, 15%);
+  border-bottom: 1px solid hsl(183, 100%, 15%);
+  color: hsl(172, 67%, 45%);
+  width: 50%;
+  font-size: 3rem;
+}
